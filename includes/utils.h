@@ -3,6 +3,12 @@
 
 #include <iostream>
 
+struct Pet {
 
+    std::string name;
+    std::string type;
+    int energy;
+    int happiness;
+};
 
 #endif  
