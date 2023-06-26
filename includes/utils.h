@@ -19,6 +19,8 @@ void feed_pet (Pet& pet, int amount);
 void play_pet(Pet &pet, int amount);
 
 //Put the pet to sleep, which increases its energy
+void sleep_pet(Pet &pet, int amount);
+
 //Display the pet's current stats (happiness, fullness and energy)
 //Save the pet's current state to a file
 //Load a pet's state from a file
