@@ -30,6 +30,8 @@ int main()
     sleep_pet(test_pet,3);
     display_pet(test_pet);
     save_pet(test_pet, "./data/test_pet.csv");
+    Pet test_pet_2 = load_pet("./data/file.csv");
+    display_pet(test_pet_2);
 
 
     return 0;

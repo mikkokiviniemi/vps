@@ -30,6 +30,8 @@ void display_pet(Pet &pet);
 void save_pet(Pet &pet, std::string file_name);
 
 //Load a pet's state from a file
+Pet load_pet(std::string file_name);
+
 //Add unit testing and try to get close 100% code coverage.
 
 
