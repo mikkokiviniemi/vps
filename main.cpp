@@ -24,6 +24,13 @@ The pull request should mention the issue it resolves.
 int main()
 {
     Pet test_pet = {"Mau","Cat",0,0};
-    std::cout << test_pet.type << "\n";
+    display_pet(test_pet);
+    feed_pet (test_pet,3);
+    play_pet(test_pet,3);
+    sleep_pet(test_pet,3);
+    display_pet(test_pet);
+    save_pet(test_pet, "./data/test_pet.csv");
+
+
     return 0;
 }

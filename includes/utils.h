@@ -2,6 +2,8 @@
 #define UTILS_H
 
 #include <iostream>
+#include <fstream>
+#include <sstream>
 
 //Create a new pet with name and type.
 struct Pet {
@@ -24,8 +26,9 @@ void sleep_pet(Pet &pet, int amount);
 //Display the pet's current stats (happiness, fullness and energy)
 void display_pet(Pet &pet);
 
-//Display the pet's current stats (happiness, fullness and energy)
 //Save the pet's current state to a file
+void save_pet(Pet &pet, std::string file_name);
+
 //Load a pet's state from a file
 //Add unit testing and try to get close 100% code coverage.
 
